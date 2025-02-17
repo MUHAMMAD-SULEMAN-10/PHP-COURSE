@@ -48,6 +48,23 @@ foreach($books as $book){
     echo '_______________' . '<br>';
 }
 
+
+   //While Loop:
+
+   $counter = 1;
+   while($counter <5){
+    echo 'The number is ' .$counter.'<br>';
+    $counter++;
+   }
+
+
+   //for loop:
+    for($i = 1; $i <= 10 ; $i++){
+        echo 'the Number is '.$i. '<br>';
+    }
+
+
+
 ?>
 
 </body>
