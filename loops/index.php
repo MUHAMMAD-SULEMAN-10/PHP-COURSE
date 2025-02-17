@@ -50,6 +50,11 @@ foreach($books as $book){
 
 
    //While Loop:
+//    The while loop runs as long as the specified condition is true. 
+//    It checks the condition before each iteration,
+//    so if the condition is false at the beginning, the loop won't run even once.
+
+
 
    $counter = 1;
    while($counter <5){
@@ -59,6 +64,19 @@ foreach($books as $book){
 
 
    //for loop:
+    // 2. For Loop:
+    // The for loop is used when you know how many times 
+    // you want to execute the code. It includes initialization, 
+    // condition, and increment/decrement all in one line.
+   
+
+    // syntax:
+    // for (initialization; condition; increment) {
+    //     // code to be executed
+    // }
+
+
+
     for($i = 1; $i <= 10 ; $i++){
         echo 'the Number is '.$i. '<br>';
     }
